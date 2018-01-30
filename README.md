@@ -1,3 +1,5 @@
+#This software has some python examples code 
+#cartwheeling-kitten
 # Intro to Programming Nanodegree Starter Code
 
 The files in this repository are here to help you follow along as you complete the Intro to Programming Nanodegree.
