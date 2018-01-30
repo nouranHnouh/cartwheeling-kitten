@@ -1,0 +1,4 @@
+.Dc_store
+*.xcuserstate
+project.xworkspace/
+xcuserdata/
