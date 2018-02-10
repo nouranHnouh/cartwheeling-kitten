@@ -1,22 +1,19 @@
-# Now, we want to ask ourselves the question: How many occurrences of 
-# the number 9 appear in our randomly made list?
+# occurrences of the number 9 appear in our randomly made list
 # 
-# For example, if we have a list: [2,8,9,9,4,5,9], we want to figure out
-# how to loop through the list and count the number of occurrences of the
-# number 9. In the example list above, the number 9 occurs three times.
+#loop through the list and count the number of occurrences of the
+# number 9.
 
 import random
 
 # 1. Create random list of integers using while loop
-random_list = []
-list_length = 20
-
+random_list = [] # empty list 
+list_length = 20 
+#loop when length of random_list is less than length of the list 
 while len(random_list) < list_length:
-  random_list.append(random.randint(0,10))
+  random_list.append(random.randint(0,10)) # append the list by random number from 0 to 10 
     
-# Write code here to loop through the list and count all occurrences
-# of the number 9. Note that `if` statements and `while` loops will help you solve
-# this problem.
+# loop through the list and count all occurrences
+# of the number 9.
 count=0
 targetValue=0
 while targetValue<len(random_list): 
@@ -26,7 +23,6 @@ while targetValue<len(random_list):
 
 
 
-# Test: If the `while` loop we wrote works, we should manually count
-# how many times the number 9 is present in the list.
+# Test: If the `while` works
 print random_list
 print count
