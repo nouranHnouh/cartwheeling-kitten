@@ -1,33 +1,33 @@
-# What is the difference between these two pieces of code?
+#defining two list 
 list1 = [1,2,3,4,5]
 list2 = [1,2,3,4,5]
-
+#proc function that take list as input and add to the list 
 def proc(mylist):
     mylist = mylist + [6, 7]
-
+#proc2 function take append to a list 
 def proc2(mylist):
     mylist.append(6)
     mylist.append(7)
 
-# Can you explain the results given by the print statements below?
+# print list1 and call proc function and pass list1 as its argument
 
 print "demonstrating proc"
 print list1
 proc(list1)
 print list1
 print
+#print list2 and call proc2 function and pass list2 as its argument
 print "demonstrating proc2"
 print list2
 proc2(list2)
 print list2
 
-# Python has a special assignment syntax: +=.  Here is an example:
+# add [6,7] to list3
 
 list3 = [1,2,3,4,5]
 list3 += [6, 7]
 
-# Does this behave like list1 = list1 + [6,7] or list2.append([6,7])? Write a
-# procedure, proc3 similar to proc and proc2, but for +=. 
+# procedure, proc3 that adds 6,7 to list3
 def proc3(mylist):
     mylist+=[6,7]
 print "demonstrating proc3"
