@@ -7,10 +7,8 @@ countries = [['China','Beijing',1350],
              ['Romania','Bucharest',21],
              ['United States','Washington',307]]
 
-# What multiple of Romania's population is the population
-# of China? Calculate this by accessing the list and
-# dividing the population of China (1350)
-# by the population of Romania (21).
+# calculate multiple of Romania's population is the population
+# of China
 # Please print your result.
 country=countries[2][2]
 country1=countries[0][2]
