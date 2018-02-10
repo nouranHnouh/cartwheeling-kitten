@@ -1,3 +1,4 @@
+#find string in string using find()
 pythagoras = 'There is geometry in the humming of the strings, there is music in the spacing of the sphere.'
 print pythagoras.find('strings') 
 print pythagoras [40: ]
@@ -10,12 +11,9 @@ print 's'.find('s')
 print s.find ('')
 print s.find (s+'!!!')+1
 
-#Quiz 
 
 # Use the string.find method to locate "NOUN" and "VERB" in the string text
 # and store those positions in the variables noun_position and verb_position respectively.
-# Review Dave's video on string.find, or visit
-# http://www.tutorialspoint.com/python/string_find.htm for more information.
 
 text = """Wow this is a fairly long body of text. Quite a few characters too.
 I wonder if the string.find method could help find where NOUN is located.
