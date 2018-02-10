@@ -1,17 +1,17 @@
-# Define a procedure, median, that takes three
+# a procedure, median, that takes three
 # numbers as its inputs, and returns the median
 # of the three numbers.
 
-# Make sure your procedure has a return statement.
+# bigger procedure takes two inputs and return the bigger number
 
 def bigger(a,b):
     if a > b:
         return a
     else:
         return b
-
+#bigest procedure takes three inputs and return the biggest number 
 def biggest(a,b,c):
-    return bigger(a,bigger(b,c))
+    return bigger(a,bigger(b,c)) # calling bigger function
 
 def median(a,b,c):
     big=biggest (a,b,c)
