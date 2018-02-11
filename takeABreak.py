@@ -1,5 +1,5 @@
 #this is a mini project called take a break
-# it allws you to take a 3 breaks after 2 hours and open a webbrowser
+# it allows you to take a breaks after work every 2 hours and open a webbrowser
 #so you can listen to video in the break. 
 import webbrowser 
 import time 
@@ -11,7 +11,7 @@ while break_count<total_break:
 
    #let program wait 2hours before take a break and open the webbrowser 
    time.sleep(2*60*60)
-
+   print ("time for a break!")
 #open a webbrowser
-    webbrowser.open("https://www.youtube.com/watch?v=JGwWNGJdvx8")
-    break_count+=1 
+   webbrowser.open("https://www.youtube.com/watch?v=JGwWNGJdvx8")
+   break_count+=1 
