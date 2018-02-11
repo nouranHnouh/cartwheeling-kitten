@@ -12,6 +12,6 @@ while break_count<total_break:
    #let program wait 2hours before take a break and open the webbrowser 
    time.sleep(2*60*60)
    print ("time for a break!")
-#open a webbrowser
+ #open a webbrowser
    webbrowser.open("https://www.youtube.com/watch?v=JGwWNGJdvx8")
    break_count+=1 
